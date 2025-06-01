@@ -1,0 +1,1 @@
+web: gunicorn finalLuxenv1.0.0.app:app 
