@@ -1,23 +1,66 @@
+# Web Framework
 Flask==3.0.2
 Werkzeug==3.0.1
 Jinja2==3.1.3
 click==8.1.7
 itsdangerous==2.1.2
 MarkupSafe==2.1.5
+
+# Server
 gunicorn==21.2.0
 gevent==24.2.1
 greenlet==3.0.3
+
+# Image Processing
 Pillow==10.2.0
 opencv-python==4.9.0.80
 numpy==1.26.4
 scikit-image==0.22.0
-scikit-learn==1.4.1.post1
+scikit-learn==1.4.1
+
+# Machine Learning & Data Processing
 pandas==2.2.1
 scipy==1.12.0
 matplotlib==3.8.3
 seaborn==0.13.2
+
+# Database
 SQLAlchemy==2.0.27
 alembic==1.13.1
+
+# Security
+Flask-Login==0.6.3
+Flask-Session==0.6.0# Web Framework
+Flask==3.0.2
+Werkzeug==3.0.1
+Jinja2==3.1.3
+click==8.1.7
+itsdangerous==2.1.2
+MarkupSafe==2.1.5
+
+# Server
+gunicorn==21.2.0
+gevent==24.2.1
+greenlet==3.0.3
+
+# Image Processing
+Pillow==10.2.0
+opencv-python==4.9.0.80
+numpy==1.26.4
+scikit-image==0.22.0
+scikit-learn==1.4.1
+
+# Machine Learning & Data Processing
+pandas==2.2.1
+scipy==1.12.0
+matplotlib==3.8.3
+seaborn==0.13.2
+
+# Database
+SQLAlchemy==2.0.27
+alembic==1.13.1
+
+# Security
 Flask-Login==0.6.3
 Flask-Session==0.6.0
 Flask-WTF==1.2.1
@@ -25,6 +68,8 @@ WTForms==3.1.2
 cryptography==42.0.5
 bcrypt==4.1.2
 PyJWT==2.8.0
+
+# Utilities
 python-dotenv==1.0.1
 requests==2.31.0
 urllib3==2.2.1
@@ -32,36 +77,149 @@ certifi==2024.2.2
 charset-normalizer==3.3.2
 idna==3.6
 tqdm==4.66.2
+
+# Testing
 pytest==8.0.2
 pytest-cov==4.1.0
 coverage==7.4.3
+
+# Development Tools
 black==24.2.0
 flake8==7.0.0
 isort==5.13.2
 mypy==1.8.0
+
+# Documentation
 Sphinx==7.2.6
 sphinx-rtd-theme==2.0.0
+
+# API and Serialization
 marshmallow==3.20.2
 apispec==6.3.1
 apispec-webframeworks==0.5.2
+
+# Caching
 Flask-Caching==2.1.0
 redis==5.0.1
+
+# Monitoring and Logging
 Flask-MonitoringDashboard==3.3.0
 sentry-sdk==1.40.4
+
+# File Handling
 python-magic==0.4.27
 python-magic-bin==0.4.14
+
+# Date and Time
 pytz==2024.1
 python-dateutil==2.8.2
+
+# Compression
 Flask-Compress==1.14.0
+
+# CORS
 Flask-CORS==4.0.0
+
+# Email
 Flask-Mail==0.9.1
+
+# Validation
 voluptuous==0.14.1
 jsonschema==4.21.1
+
+# Async Support
 aiohttp==3.9.3
 asyncio==3.4.3
+
+# Image Processing Dependencies
 networkx==3.2.1
 PyWavelets==1.5.0
 tifffile==2024.2.12
 imageio==2.33.1
 imageio-ffmpeg==0.4.9 
-boto3==1.34.59
+Flask-WTF==1.2.1
+WTForms==3.1.2
+cryptography==42.0.5
+bcrypt==4.1.2
+PyJWT==2.8.0
+
+# AWS
+boto3==1.34.69
+botocore==1.34.69
+s3transfer==0.10.1
+
+# API and HTTP
+requests==2.31.0
+urllib3==2.2.1
+certifi==2024.2.2
+charset-normalizer==3.3.2
+idna==3.6
+
+# Utilities
+python-dotenv==1.0.1
+tqdm==4.66.2
+uuid==1.30
+
+# Testing
+pytest==8.0.2
+pytest-cov==4.1.0
+coverage==7.4.3
+
+# Development Tools
+black==24.2.0
+flake8==7.0.0
+isort==5.13.2
+mypy==1.8.0
+
+# Documentation
+Sphinx==7.2.6
+sphinx-rtd-theme==2.0.0
+
+# API and Serialization
+marshmallow==3.20.2
+apispec==6.3.1
+apispec-webframeworks==0.5.2
+
+# Caching
+Flask-Caching==2.1.0
+redis==5.0.1
+
+# Monitoring and Logging
+Flask-MonitoringDashboard==3.3.0
+sentry-sdk==1.40.4
+
+# File Handling
+python-magic==0.4.27
+python-magic-bin==0.4.14
+
+# Date and Time
+pytz==2024.1
+python-dateutil==2.8.2
+
+# Compression
+Flask-Compress==1.14.0
+
+# CORS
+Flask-CORS==4.0.0
+
+# Email
+Flask-Mail==0.9.1
+
+# Validation
+voluptuous==0.14.1
+jsonschema==4.21.1
+
+# Async Support
+aiohttp==3.9.3
+asyncio==3.4.3
+
+# Image Processing Dependencies
+networkx==3.2.1
+PyWavelets==1.5.0
+tifffile==2024.2.12
+imageio==2.33.1
+imageio-ffmpeg==0.4.9
+
+# Chart.js for graphs
+Flask-Assets==2.1.0
+webassets==2.1.0 
